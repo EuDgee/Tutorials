@@ -39,7 +39,7 @@
         "git branch -a",
         "git fetch --prune",
         "origin/master vs master",
-        "Stop using old git versions"
+        "Stop using old git versions, git config --global push.default simple"
     ]
   }, {
     "title": "Remotes",
