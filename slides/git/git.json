@@ -1,0 +1,68 @@
+{
+  "title": "Git: HowTo",
+  "description": "How to stop using GUI utils and embrace power of console git",
+  "pages": [{
+    "title": "Entities",
+    "elements": [
+        "Repositories",
+        "Branches",
+        "Commits",
+        "Remotes"
+    ]
+  }, {
+    "title": "Basics",
+    "elements": [
+        "Create a new repository - git init",
+        "Stage a file to commit - git add",
+        "Make a commit - git commit",
+        "Push to remote - git push"
+    ]
+  }, {
+    "title": "State",
+    "elements": [
+      "Current state - git status, git status -s",
+      "Logs - git log, git log -p",
+      "Diffs - git diff"
+    ]
+  }, {
+    "title": "Commits",
+    "elements": [
+        "git commit -am",
+        ".gitignore",
+        "git reset HEAD",
+        "git reset --hard"
+    ]
+  }, {
+    "title": "Branches",
+    "elements": [
+        "git checkout -b",
+        "git branch -a",
+        "git fetch --prune",
+        "origin/master vs master",
+        "Stop using old git versions"
+    ]
+  }, {
+    "title": "Remotes",
+    "elements": [
+        "git remote -v",
+        "git remote add",
+        "git remote set-url"
+    ]
+  }, {
+    "title": "Merges",
+    "elements": [
+        "git merge",
+        "rebase, squash",
+        "git add .; git commit"
+    ]
+  }, {
+    "title": "Any problems?",
+    "elements": [
+        "git rm --cached",
+        "--force",
+        "git branch -D",
+        "git cherry-pick",
+        "git update-index --assume-unchanged"
+    ]
+  }]
+}
