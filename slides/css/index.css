@@ -14,10 +14,23 @@ h3 {
   margin: 10px;
 }
 
+li {
+  font-size: 48px;
+  margin: 10px;
+}
+
 .header {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.header-title {
+  position: fixed;
+  height: 100px;
+  top: 0;
+  left: 200px;
+  vertical-align: middle;
 }
 
 .footer {
@@ -47,4 +60,10 @@ h3 {
 
   vertical-align: middle;
   text-align: center;
+}
+
+.content {
+  position: absolute;
+  top: 150px;
+  left: 50px;
 }
