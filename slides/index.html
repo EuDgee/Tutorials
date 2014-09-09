@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="slides">
 <head>
   <meta name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet"
         href="css/index.css">
   <title>
@@ -12,16 +10,19 @@
   </title>
   <script
       src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.js"></script>
+  <script
+      src="js/index.js"></script>
 </head>
-<body>
-<div class="container-fluid">
-  <div class="row">
-    <img class="logo" src="img/livetex-logo.png">
-  </div>
+<body ng-controller="Pages as pages">
+<div class="header">
+  <div class="logo"></div>
 </div>
-<script
-    src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script
-    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<div class="title">
+  <h1>{{pages.title}}</h1>
+  <h3>{{pages.description}}</h3>
+</div>
+<div class="footer">
+  {{pages.footer}}
+</div>
 </body>
 </html>

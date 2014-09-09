@@ -1,5 +1,50 @@
 
+h1 {
+  font-size: 64px;
+  margin: 16px;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 13px;
+}
+
+h3 {
+  font-size: 32px;
+  margin: 10px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 95%;
+  text-align: right;
+}
+
 .logo {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
+  background: url('../img/livetex-logo.png');
+  background-size: 100px 100px;
+}
+
+.title {
+  width: 500px;
+  height: 200px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  vertical-align: middle;
+  text-align: center;
 }
