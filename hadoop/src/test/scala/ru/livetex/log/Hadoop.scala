@@ -9,7 +9,7 @@ class Hadoop extends FlatSpec with Matchers {
   val hdfs = new HadoopFs(hdfsURI)
   val folder = "/user/eudgee/"
 
-  it should "create and delete a file" in {
+  ignore should "create and delete a file" in {
     val fileName = folder ++ "create-delete"
 
     assume(!hdfs.exists(fileName), "File already exists")
@@ -21,7 +21,7 @@ class Hadoop extends FlatSpec with Matchers {
     assert(!hdfs.exists(fileName), "File wasn't deleted")
   }
 
-  it should "write and read data from a file" in {
+  ignore should "write and read data from a file" in {
     val fileName = folder ++ "write-read"
     val data = "ololo"
 
