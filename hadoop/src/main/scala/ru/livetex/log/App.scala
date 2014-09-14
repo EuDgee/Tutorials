@@ -1,10 +1,7 @@
-package example
+package ru.livetex.log
 
-import java.io.BufferedInputStream
-import java.io.File
-import java.io.FileInputStream
-import java.io.InputStream
 import java.net.URI
+
 import org.apache.hadoop.conf._
 import org.apache.hadoop.fs._
 
@@ -18,6 +15,6 @@ object App {
 
     println("Scala is awesome")
 
-    hdfs.delete(new Path("/user/spark/SPARK-README.md"), true)
+    hdfs.delete(new Path("/user/eudgee/SPARK-README.md"), true)
   }
 }
