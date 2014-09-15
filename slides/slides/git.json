@@ -13,6 +13,7 @@
     "title": "Basics",
     "elements": [
         "Create a new repository - git init",
+        "Or clone a repository - git clone",
         "Stage a file to commit - git add",
         "Make a commit - git commit",
         "Push to remote - git push"
@@ -29,12 +30,14 @@
     "elements": [
         "git commit -am",
         ".gitignore",
+        "git checkout --",
         "git reset HEAD",
         "git reset --hard"
     ]
   }, {
     "title": "Branches",
     "elements": [
+        "git checkout",
         "git checkout -b",
         "git branch -a",
         "git fetch --prune",
@@ -46,7 +49,8 @@
     "elements": [
         "git remote -v",
         "git remote add",
-        "git remote set-url"
+        "git remote set-url",
+        "git push/pull"
     ]
   }, {
     "title": "Merges",
@@ -63,6 +67,13 @@
         "git branch -D",
         "git cherry-pick",
         "git update-index --assume-unchanged"
+    ]
+  }, {
+    "title": "Other",
+    "elements": [
+        "git config --global core.editor emacs",
+        "git config --global color.ui true",
+        "git config --global user.name \"Evgeny Mikheev\""
     ]
   }]
 }
