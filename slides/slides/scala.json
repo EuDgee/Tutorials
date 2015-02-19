@@ -1,5 +1,5 @@
 {
-  "title": "Scala: basics",
+  "title": "Scala: Basics",
   "description": "with code example!",
   "pages": [{
     "title": "What is Scala?",
@@ -47,6 +47,12 @@
       "Collections",
       "Options - never use null",
       "and other awesome things"
+    ]
+  }, {
+    "title": "Ask me questions",
+    "elements": [
+      "Repository with examples",
+      "https://github.com/EuDgee/Scala-Tutorial"
     ]
   }]
 }
