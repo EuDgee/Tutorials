@@ -27,7 +27,7 @@
 
   function loadData($http, slide, callback) {
     if (data === null) {
-      $http.get('/slides/' + slide + '.json').then(
+      $http.get('slides/' + slide + '.json').then(
           function(response) {
             data = response.data;
             callback(data);

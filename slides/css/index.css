@@ -67,3 +67,9 @@ li {
   top: 150px;
   left: 50px;
 }
+
+.logo-pic {
+  width: 200px;
+  height: auto;
+  margin: 50px;
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Scala: basics",
+  "description": "with code example!",
+  "pages": [{
+    "title": "What is Scala?",
+    "elements": [
+      "Scala is an acronym for “Scalable Language”",
+      "Object oriented",
+      "Functional",
+      "Has types",
+      "Run on JVM",
+      "Functions are Objects"
+    ]
+  }, {
+    "title": "Why Scala?",
+    "elements": [
+        "Type safety",
+        "Concurrency",
+        "Awesome features",
+        "Ecosystem"
+    ]
+  }, {
+    "title": "How to start?",
+    "elements": [
+      "It`s almost Java",
+      "You can code knowing only basics"
+    ]
+  }, {
+    "title": "Example",
+    "elements": [
+      "sbt",
+      "Lets code already!"
+    ]
+  }, {
+    "title": "Language constructs",
+    "elements": [
+      "Variables",
+      "For cycles",
+      "Objects and classes",
+      "Pattern matching"
+    ]
+  }, {
+    "title": "Data structures",
+    "elements": [
+      "Case classes",
+      "Tuples",
+      "Collections",
+      "Options - never use null",
+      "and other awesome things"
+    ]
+  }]
+}
