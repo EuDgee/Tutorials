@@ -1,0 +1,60 @@
+{
+  "title": "Widgets: Basics",
+  "description": "architecture, namespaces and awesomeness",
+  "pages": [{
+    "title": "Widgets?",
+    "elements": [
+      "What are they for? Showing our widgets! To visitors",
+      "Previous versions wasn`t awesome (CS, Web-Client)",
+      "New design (with animation)",
+      "Easy to maintain AND extend"
+    ]
+  }, {
+    "title": "Widgets Architecture",
+    "elements": [
+        "Services",
+        "Widgets",
+        "What`ve done wrong?",
+        "Widgets, not templates and controls",
+        "CS and events hell (not callback, yep)",
+        "IO with multiple channels"
+    ]
+  }, {
+    "title": "Awesome Features",
+    "elements": [
+      "Registry: publish and listen",
+      "AppState - describe states + events = magic",
+      "Templates and localization",
+      "Multi-tab app and data-binding",
+      "App types",
+      "Mobile and external was hard, but not hard hard",
+      "Logs"
+    ]
+  }, {
+    "title": "Namespaces",
+    "elements": [
+      "/app - App types and loader",
+      "/core - Core components, like AppState, Listener, Registry",
+      "/data - Just widgets model",
+      "/io, /mocks - you guess...",
+      "/service - all the services",
+      "/widgets - all the widgets",
+      "/store, /cwt, /tasker, /rules, /tabs - little frameworks",
+      "/util - anything else"
+    ]
+  }, {
+    "title": "What we are going to do",
+    "elements": [
+      "Thrift IO Channel",
+      "Web Service/Platform",
+      "Auto-generation",
+      "Even with mocks and tests",
+      "Divide and conquer, for your team and your needs"
+    ]
+  }, {
+    "title": "LiveTex Widgets",
+    "elements": [
+      "https://github.com/LiveTex/Widgets"
+    ]
+  }]
+}
