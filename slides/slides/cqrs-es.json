@@ -1,0 +1,56 @@
+{
+  "title": "Scalable microservices",
+  "description": "CQRS, ES, DDDD and other letters",
+  "pages": [{
+    "title": "WTF?",
+    "elements": [
+      "CQRS - Command/Query Responsibility Segregation",
+      "ES - Event Sourcing",
+      "DDDD - Distributed Domain Driven Design",
+      "Easier to scale"
+    ]
+  }, {
+    "title": "DDDD",
+    "elements": [
+      "Domain-driven design (DDD) is an approach to software development for complex needs by connecting the implementation to an evolving model",
+      "Primary focus on the core domain and domain logic",
+      "Collaboration between technical and domain experts",
+      "Distributed? A little bit later..."
+    ]
+  }, {
+    "title": "CQRS",
+    "elements": [
+      "Queries: Return a result and do not change the observable state of the system (are free of side effects)",
+      "Commands: Change the state of a system but do not return a value",
+      "Even for a data storage"
+    ]
+  }, {
+    "title": "Event Sourcing",
+    "elements": [
+      "Every change is an event",
+      "All events are in the the event log",
+      "All you need - is your events (commands), not queries",
+      "Events has names",
+      "Events are immutable"
+    ]
+  }, {
+    "title": "Putting all of them together",
+    "elements": [
+      "Easy for big data (commands = events), query - only when you need them",
+      "Easy to scale reads independently from writes",
+      "Distributed = you need messaging",
+      "So you need design your domain objects and think about what messages they can send to each other"
+    ]
+  }, {
+    "title": "Questions and talks",
+    "elements": [
+      "Let`s think of example",
+      "And after this there would be code example!"
+    ]
+  }, {
+    "title": "Code example",
+    "elements": [
+      "http://www.typesafe.com/activator/template/akka-dddd-cqrs"
+    ]
+  }]
+}
