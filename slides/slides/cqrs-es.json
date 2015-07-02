@@ -12,7 +12,7 @@
   }, {
     "title": "DDDD",
     "elements": [
-      "One language",
+      "One language, no Babylon",
       "Primary focus on the core domain and domain logic",
       "Collaboration between technical and domain experts",
       "Bounded contexts, dependencies",
