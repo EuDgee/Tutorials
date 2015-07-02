@@ -7,50 +7,65 @@
       "CQRS - Command/Query Responsibility Segregation",
       "ES - Event Sourcing",
       "DDDD - Distributed Domain Driven Design",
-      "Easier to scale"
+      "Reactive = Message-driven, resilient, elastic, responsive"
     ]
   }, {
     "title": "DDDD",
     "elements": [
-      "Domain-driven design (DDD) is an approach to software development for complex needs by connecting the implementation to an evolving model",
+      "One language",
       "Primary focus on the core domain and domain logic",
       "Collaboration between technical and domain experts",
-      "Distributed? A little bit later..."
+      "Bounded contexts, dependencies",
+      "Events and commands are quite natural"
     ]
   }, {
     "title": "CQRS",
     "elements": [
-      "Queries: Return a result and do not change the observable state of the system (are free of side effects)",
-      "Commands: Change the state of a system but do not return a value",
-      "Even for a data storage"
+      "Queries: Return a result",
+      "Commands: Change the state of a system",
+      "They are different objects, not just methods",
+      "Segregation for a data storage too",
+      "What about commands which spans across multiple entities?",
+      "Does it mean — more complex code?"
     ]
   }, {
     "title": "Event Sourcing",
     "elements": [
-      "Every change is an event",
+      "Every change/command is an event",
       "All events are in the the event log",
       "All you need - is your events (commands), not queries",
       "Events has names",
       "Events are immutable"
     ]
   }, {
-    "title": "Putting all of them together",
+    "title": "Putting all of this together",
     "elements": [
-      "Easy for big data (commands = events), query - only when you need them",
+      "Easy for (big) data aggregation",
       "Easy to scale reads independently from writes",
-      "Distributed = you need messaging",
-      "So you need design your domain objects and think about what messages they can send to each other"
+      "Distributed = add messaging and you get decoupled system",
+      "Think about what messages objects can send to each other",
+      "Easy to test",
+      "About links between domain objects"
     ]
   }, {
     "title": "Questions and talks",
     "elements": [
-      "Let`s think of example",
-      "And after this there would be code example!"
+      "Let`s think of examples"
     ]
   }, {
-    "title": "Code example",
+    "title": "Examples",
     "elements": [
-      "http://www.typesafe.com/activator/template/akka-dddd-cqrs"
+      "Simple CRUD, todolist",
+      "Livetex Chat-Server",
+      "Where it adds more burden than benefits?"
+    ]
+  }, {
+    "title": "That`s all",
+    "elements": [
+      "scala example - http://www.typesafe.com/activator/template/akka-dddd-cqrs",
+      "or - https://github.com/boldradius/akka-dddd-template",
+      "article - http://boldradius.com/blog-post/VSQCySkAACcA4k5J/easy-scalability-with-akka",
+      "faq - http://cqrs.nu/Faq"
     ]
   }]
 }
